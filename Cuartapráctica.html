@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Práctica 4- Formularios Teresa</title>
+    <meta charset="UTF-8" />
+	<meta name="title" content="Práctica 4- Formularios Teresa">
+	<meta name="description" content="Esta página contiene un formulario con el objetivo de poder darse de alta en una nueva red social para interactuar con tus amigos o hacer nuevos.">
+	<meta name="language" content="es">
+	<meta name="creator" content="María Teresa Nsué Etohá">
+</head>
+
+<body>
+  <div id="contenedor">
+    <h2 id="encabezado">Bestbesties</h2> 
+    <img src = "https://img.freepik.com/vector-gratis/concepto-conflictos-pareja_52683-41848.jpg?w=740&t=st=1698833562~exp=1698834162~hmac=3768609b7b8eab3d171d9a52ccb5b8f6a70f9a97d99f54928b3c3f9e6818adda" alt = "imagen de logo Bestbesties" width=300 align=MIDDLE>Bestbesties es una nueva paágina web en desarrollo para conocer gente nueva o interactuar con la gente a la que ya conoces, entre otras muchas funciones. Puedes interactuar con las personas por chat, llamadas, videollamadas, juegos, etc. De la forma que mejor se adapte a tu personalidad.
+    <p>Para tener acceso a ella es necesario cumplimentar el siguiente formulario:</p>
+  
+  <div id="contenedor">
+    <h2 id="encabezado">Datos personales</h2>
+    <form id="formulario1" name="formulario1" method="post" action="data.php">
+   
+    Selecciona tu género:<br>
+    <input id="femenine" type="radio" name="gender" value="femenine"
+    <label for="femenine">Femenino</label>
+
+    <input id="masculine" type="radio" name="gender" value="masculine"
+    <label for="masculine">Masculino</label><br>
+
+    Color favorito:<br>
+    <label for="icolor"</label>
+    <input id="icolor" type="color" name="micolor"><br>
+    
+    Nombre:<br>
+    <label for="iname"</label>
+    <input id="iname" type="text" name="name"><br>
+
+    Apellidos:<br>
+    <label for="isurname"</label>
+    <input id="isurname" type="text" name="surname"><br>
+    
+    Nombre de usuario:<br>
+    <label for="iname"</label>
+    <input id="iname" type="text" name="name"><br>
+
+    Fecha de nacimiento:<br>
+    <label for="ifecha"</label>
+    <input id="ifecha" type="date" name="fecha"><br>
+
+    Número de teléfono:<br>
+    <label for="iteléfono"</label>
+    <input id="iteléfono" type="tel" name="teléfono"><br>
+
+    Email<br>
+    <label for="iemail"</label>
+    <input id="iemail" type="email" name="email"><br>
+
+    Crea una contraseña:<br>
+    <label for="ipass"</label>
+    <input id="ipass" type="password" name="pass"><br>
+
+    Reintroduce la contraseña:<br>
+    <label for="ipass"</label>
+    <input id="ipass" type="password" name="pass"><br>
+    </form>
+</div>
+
+  <div id="contenedor"></div>
+    <h3 id="encabezado">¿Por qué quiere registrarse?</h3>
+    <form id="formulario2" name="formulario2" method="post" action="data.php">
+    Motivo de ingreso: <input type="text" list="Motivos de ingreso"
+    <datalist id="motivos de ingreso">
+      <option value="Para hacer amigos">
+      <option value="Para buscar pareja">
+      <option value="Para interactuar con mis amigos">
+      <option value="Para darme a conocer">
+      <option value="Para ver la vida de los demás">
+    </datalist>
+    <br><br>
+  
+</form>
+</div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Restablecer todos los campos" />
+</body>
+</html>
